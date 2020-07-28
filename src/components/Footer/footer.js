@@ -2,6 +2,7 @@ import React from 'react';
 import { shape, string } from 'prop-types';
 import { useFooter } from '@magento/peregrine/lib/talons/Footer/useFooter';
 import { Link } from '@magento/venia-ui/lib/drivers';
+import Greeting from '../Greeting'
 
 import { mergeClasses } from '@magento/venia-ui/lib/classify';
 import defaultClasses from '@magento/venia-ui/lib/components/Footer/footer.css';
@@ -26,6 +27,7 @@ const Footer = props => {
                 <p className={classes.tileBody}>
                     <Link to="/foo">Foo Demo Page</Link>
                 </p>
+                <Greeting name="Didier"></Greeting>
             </div>
             <div className={classes.tile}>
                 <h2 className={classes.tileTitle}>

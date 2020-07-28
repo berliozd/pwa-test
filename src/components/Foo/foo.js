@@ -5,7 +5,7 @@ import React, { useEffect } from 'react';
 const Foo = () => {
 
   return (
-    <h1>Hello World JSX bababab</h1>
+    <h1>Hello World JSX</h1>
   );
 }
 
