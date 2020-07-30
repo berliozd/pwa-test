@@ -7,6 +7,8 @@ import MagentoRoute from '@magento/venia-ui/lib/components/MagentoRoute';
 const CreateAccountPage = lazy(() => import('@magento/venia-ui/lib/components/CreateAccountPage'));
 const Search = lazy(() => import('@magento/venia-ui/lib/RootComponents/Search'));
 const Foo = lazy(() => import('../Foo'));
+const Greeting = lazy(() => import('../Greeting'));
+
 
 const Routes = () => {
     return (
@@ -14,6 +16,9 @@ const Routes = () => {
             <Switch>
                 <Route exact path="/foo">
                     <Foo />
+                </Route>
+                <Route exact path="/greeting">
+                    <Greeting name="Balou"/>
                 </Route>
                 <Route exact path="/search.html">
                     <Search />

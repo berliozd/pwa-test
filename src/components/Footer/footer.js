@@ -27,6 +27,9 @@ const Footer = props => {
                 <p className={classes.tileBody}>
                     <Link to="/foo">Foo Demo Page</Link>
                 </p>
+                <p className={classes.tileBody}>
+                    <Link to="/greeting">Greeting Demo Page</Link>
+                </p>
                 <Greeting name="Didier"></Greeting>
             </div>
             <div className={classes.tile}>
